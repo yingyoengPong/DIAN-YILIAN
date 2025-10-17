@@ -18,6 +18,7 @@ export default function WorkerRegister(props) {
   const onRegister = async data => {
     setIsLoading(true);
     try {
+      // 修复数据源名称
       const result = await $w.cloud.callDataSource({
         dataSourceName: 'electric_worker',
         methodName: 'wedaCreateV2',
@@ -59,6 +60,7 @@ export default function WorkerRegister(props) {
   const onLogin = async data => {
     setIsLoading(true);
     try {
+      // 修复数据源名称
       const result = await $w.cloud.callDataSource({
         dataSourceName: 'electric_worker',
         methodName: 'wedaGetRecordsV2',
