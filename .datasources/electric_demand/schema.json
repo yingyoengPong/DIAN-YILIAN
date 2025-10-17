@@ -1,0 +1,109 @@
+
+{
+  "name": "electric_demand",
+  "title": "需求单",
+  "schemas": [
+    {
+      "name": "customer_id",
+      "title": "客户ID",
+      "type": "String"
+    },
+    {
+      "name": "customer_info",
+      "title": "客户信息",
+      "type": "Object",
+      "schemas": [
+        {
+          "name": "name",
+          "title": "姓名",
+          "type": "String"
+        },
+        {
+          "name": "phone",
+          "title": "联系电话",
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "service_address",
+      "title": "用电地址",
+      "type": "String"
+    },
+    {
+      "name": "demand_description",
+      "title": "需求描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "business_type",
+      "title": "业务类型",
+      "type": "String"
+    },
+    {
+      "name": "budget",
+      "title": "预算",
+      "type": "Number"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "String"
+    },
+    {
+      "name": "publish_time",
+      "title": "发布时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "worker_id",
+      "title": "接单人ID",
+      "type": "String"
+    },
+    {
+      "name": "completion_time",
+      "title": "完成时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "evaluation",
+      "title": "评价",
+      "type": "Object",
+      "schemas": [
+        {
+          "name": "rating",
+          "title": "评分",
+          "type": "Number"
+        },
+        {
+          "name": "comment",
+          "title": "评价内容",
+          "type": "MultiLineString"
+        },
+        {
+          "name": "evaluation_time",
+          "title": "评价时间",
+          "type": "DateTime",
+          "format": "timestamp-ms"
+        }
+      ]
+    },
+    {
+      "name": "images",
+      "title": "现场图片",
+      "type": "Array",
+      "items": {
+        "type": "Image"
+      }
+    },
+    {
+      "name": "appointment_time",
+      "title": "预约时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    }
+  ]
+}
+  

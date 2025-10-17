@@ -1,0 +1,110 @@
+
+{
+  "name": "electric_dispute",
+  "title": "纠纷记录",
+  "schemas": [
+    {
+      "name": "demand_id",
+      "title": "需求单ID",
+      "type": "String"
+    },
+    {
+      "name": "applicant_id",
+      "title": "申请人ID",
+      "type": "String"
+    },
+    {
+      "name": "applicant_type",
+      "title": "申请人类型",
+      "type": "String"
+    },
+    {
+      "name": "dispute_type",
+      "title": "纠纷类型",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "title": "纠纷描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "evidence_images",
+      "title": "凭证图片",
+      "type": "Array",
+      "items": {
+        "type": "Image"
+      }
+    },
+    {
+      "name": "processing_status",
+      "title": "处理状态",
+      "type": "String"
+    },
+    {
+      "name": "processing_result",
+      "title": "处理结果",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "processing_time",
+      "title": "处理时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "involved_amount",
+      "title": "涉及金额",
+      "type": "Number"
+    },
+    {
+      "name": "compensation_amount",
+      "title": "赔偿金额",
+      "type": "Number"
+    },
+    {
+      "name": "customer_info",
+      "title": "客户信息",
+      "type": "Object",
+      "schemas": [
+        {
+          "name": "name",
+          "title": "客户姓名",
+          "type": "String"
+        },
+        {
+          "name": "complaint",
+          "title": "客户投诉内容",
+          "type": "MultiLineString"
+        }
+      ]
+    },
+    {
+      "name": "worker_info",
+      "title": "技工信息",
+      "type": "Object",
+      "schemas": [
+        {
+          "name": "name",
+          "title": "技工姓名",
+          "type": "String"
+        },
+        {
+          "name": "response",
+          "title": "技工回应",
+          "type": "MultiLineString"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "title": "纠纷标题",
+      "type": "String"
+    },
+    {
+      "name": "order_number",
+      "title": "订单编号",
+      "type": "String"
+    }
+  ]
+}

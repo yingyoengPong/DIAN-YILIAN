@@ -1,0 +1,65 @@
+
+[
+  {
+    "_id": "worker_001",
+    "name": "张师傅",
+    "phone": "13812345678",
+    "specialty": "电路安装、维修",
+    "certificates": [
+      "https://example.com/cert1.jpg",
+      "https://example.com/cert2.jpg"
+    ],
+    "credit_score": 95,
+    "order_count": 156,
+    "completed_count": 148,
+    "status": "active",
+    "register_time": 1705296000000,
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+    "rating": 4.9,
+    "id_card": "110101199001011234",
+    "work_years": 8,
+    "createdAt": 1705296000000,
+    "updatedAt": 1705296000000
+  },
+  {
+    "_id": "worker_002",
+    "name": "李师傅",
+    "phone": "13987654321",
+    "specialty": "工业用电、配电安装",
+    "certificates": [
+      "https://example.com/cert3.jpg"
+    ],
+    "credit_score": 88,
+    "order_count": 89,
+    "completed_count": 85,
+    "status": "active",
+    "register_time": 1705382400000,
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+    "rating": 4.7,
+    "id_card": "110101198512123456",
+    "work_years": 12,
+    "createdAt": 1705382400000,
+    "updatedAt": 1705382400000
+  },
+  {
+    "_id": "worker_003",
+    "name": "王师傅",
+    "phone": "13765432109",
+    "specialty": "电路维修、故障排查",
+    "certificates": [
+      "https://example.com/cert4.jpg",
+      "https://example.com/cert5.jpg"
+    ],
+    "credit_score": 92,
+    "order_count": 203,
+    "completed_count": 195,
+    "status": "active",
+    "register_time": 1705468800000,
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+    "rating": 4.8,
+    "id_card": "110101198811112222",
+    "work_years": 10,
+    "createdAt": 1705468800000,
+    "updatedAt": 1705468800000
+  }
+]

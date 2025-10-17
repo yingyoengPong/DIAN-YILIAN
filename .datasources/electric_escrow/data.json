@@ -1,0 +1,57 @@
+
+[
+  {
+    "_id": "escrow_001",
+    "demand_id": "demand_001",
+    "customer_payment_amount": 2000,
+    "worker_receivable_amount": 1800,
+    "platform_commission": 200,
+    "status": "completed",
+    "payment_time": 1705296000000,
+    "settlement_time": 1705382400000,
+    "transaction_type": "deposit",
+    "customer_id": "customer_001",
+    "worker_id": "worker_001",
+    "order_number": "ORD-2024-001",
+    "service_fee": 200,
+    "refund_amount": 0,
+    "createdAt": 1705296000000,
+    "updatedAt": 1705382400000
+  },
+  {
+    "_id": "escrow_002",
+    "demand_id": "demand_002",
+    "customer_payment_amount": 8000,
+    "worker_receivable_amount": 7200,
+    "platform_commission": 800,
+    "status": "pending",
+    "payment_time": 1705382400000,
+    "settlement_time": null,
+    "transaction_type": "withdrawal",
+    "customer_id": "customer_002",
+    "worker_id": "worker_002",
+    "order_number": "ORD-2024-002",
+    "service_fee": 800,
+    "refund_amount": 0,
+    "createdAt": 1705382400000,
+    "updatedAt": 1705382400000
+  },
+  {
+    "_id": "escrow_003",
+    "demand_id": "demand_003",
+    "customer_payment_amount": 500,
+    "worker_receivable_amount": 450,
+    "platform_commission": 50,
+    "status": "completed",
+    "payment_time": 1705468800000,
+    "settlement_time": 1705555200000,
+    "transaction_type": "deposit",
+    "customer_id": "customer_003",
+    "worker_id": "worker_003",
+    "order_number": "ORD-2024-003",
+    "service_fee": 50,
+    "refund_amount": 0,
+    "createdAt": 1705468800000,
+    "updatedAt": 1705555200000
+  }
+]

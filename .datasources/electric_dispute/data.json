@@ -1,0 +1,88 @@
+
+[
+  {
+    "_id": "dispute_001",
+    "demand_id": "demand_001",
+    "applicant_id": "customer_001",
+    "applicant_type": "customer",
+    "dispute_type": "quality_issue",
+    "description": "电工安装不规范，存在安全隐患，电线接头裸露，配电箱安装位置不合理",
+    "evidence_images": [
+      "https://example.com/evidence1.jpg",
+      "https://example.com/evidence2.jpg"
+    ],
+    "processing_status": "pending",
+    "processing_result": "",
+    "processing_time": null,
+    "involved_amount": 2000,
+    "compensation_amount": 0,
+    "customer_info": {
+      "name": "李女士",
+      "complaint": "电工安装不规范，存在安全隐患，要求重新施工"
+    },
+    "worker_info": {
+      "name": "张师傅",
+      "response": "已按标准施工，客户要求过高，部分改动属于额外需求"
+    },
+    "title": "居民用电报装纠纷",
+    "order_number": "ORD-2024-001",
+    "createdAt": 1705488000000,
+    "updatedAt": 1705488000000
+  },
+  {
+    "_id": "dispute_002",
+    "demand_id": "demand_002",
+    "applicant_id": "customer_002",
+    "applicant_type": "customer",
+    "dispute_type": "price_dispute",
+    "description": "实际费用超出预算太多，原报价8000元，实际要求支付12000元",
+    "evidence_images": [
+      "https://example.com/evidence3.jpg"
+    ],
+    "processing_status": "processing",
+    "processing_result": "经核实，增加工程量属实，但价格增幅过高，建议按9000元结算",
+    "processing_time": 1705574400000,
+    "involved_amount": 8000,
+    "compensation_amount": 1000,
+    "customer_info": {
+      "name": "王总",
+      "complaint": "实际费用超出预算太多，要求按原报价执行"
+    },
+    "worker_info": {
+      "name": "李师傅",
+      "response": "增加了额外工程量，已提前告知客户，材料价格上涨"
+    },
+    "title": "商业用电增容争议",
+    "order_number": "ORD-2024-002",
+    "createdAt": 1705570800000,
+    "updatedAt": 1705574400000
+  },
+  {
+    "_id": "dispute_003",
+    "demand_id": "demand_003",
+    "applicant_id": "worker_003",
+    "applicant_type": "worker",
+    "dispute_type": "service_delay",
+    "description": "客户延迟验收，导致无法及时结算",
+    "evidence_images": [
+      "https://example.com/evidence4.jpg"
+    ],
+    "processing_status": "resolved",
+    "processing_result": "客户已确认验收，同意立即结算",
+    "processing_time": 1705657200000,
+    "involved_amount": 500,
+    "compensation_amount": 0,
+    "customer_info": {
+      "name": "赵先生",
+      "complaint": "工程质量有问题，需要整改"
+    },
+    "worker_info": {
+      "name": "王师傅",
+      "response": "工程已按标准完成，客户无故拖延验收"
+    },
+    "title": "电路维修验收延迟",
+    "order_number": "ORD-2024-003",
+    "createdAt": 1705653600000,
+    "updatedAt": 1705657200000
+  }
+]

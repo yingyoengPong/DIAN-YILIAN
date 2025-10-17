@@ -1,0 +1,76 @@
+
+{
+  "name": "electric_worker",
+  "title": "技工",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "姓名",
+      "type": "String"
+    },
+    {
+      "name": "phone",
+      "title": "手机号",
+      "type": "String"
+    },
+    {
+      "name": "specialty",
+      "title": "专业领域",
+      "type": "String"
+    },
+    {
+      "name": "certificates",
+      "title": "资质证书",
+      "type": "Array",
+      "items": {
+        "type": "Image"
+      }
+    },
+    {
+      "name": "credit_score",
+      "title": "信用分",
+      "type": "Number"
+    },
+    {
+      "name": "order_count",
+      "title": "接单数",
+      "type": "Number"
+    },
+    {
+      "name": "completed_count",
+      "title": "完成数",
+      "type": "Number"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "String"
+    },
+    {
+      "name": "register_time",
+      "title": "注册时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "avatar",
+      "title": "头像",
+      "type": "Image"
+    },
+    {
+      "name": "rating",
+      "title": "平均评分",
+      "type": "Number"
+    },
+    {
+      "name": "id_card",
+      "title": "身份证号",
+      "type": "String"
+    },
+    {
+      "name": "work_years",
+      "title": "从业年限",
+      "type": "Number"
+    }
+  ]
+}

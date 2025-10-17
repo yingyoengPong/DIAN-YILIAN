@@ -1,0 +1,74 @@
+
+{
+  "name": "electric_escrow",
+  "title": "资金托管",
+  "schemas": [
+    {
+      "name": "demand_id",
+      "title": "需求单ID",
+      "type": "String"
+    },
+    {
+      "name": "customer_payment_amount",
+      "title": "客户支付金额",
+      "type": "Number"
+    },
+    {
+      "name": "worker_receivable_amount",
+      "title": "技工应收金额",
+      "type": "Number"
+    },
+    {
+      "name": "platform_commission",
+      "title": "平台抽成",
+      "type": "Number"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "String"
+    },
+    {
+      "name": "payment_time",
+      "title": "支付时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "settlement_time",
+      "title": "结算时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "transaction_type",
+      "title": "交易类型",
+      "type": "String"
+    },
+    {
+      "name": "customer_id",
+      "title": "客户ID",
+      "type": "String"
+    },
+    {
+      "name": "worker_id",
+      "title": "技工ID",
+      "type": "String"
+    },
+    {
+      "name": "order_number",
+      "title": "订单编号",
+      "type": "String"
+    },
+    {
+      "name": "service_fee",
+      "title": "服务费",
+      "type": "Number"
+    },
+    {
+      "name": "refund_amount",
+      "title": "退款金额",
+      "type": "Number"
+    }
+  ]
+}
